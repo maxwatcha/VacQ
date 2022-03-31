@@ -169,6 +169,6 @@ exports.getVacCenters=(req,res,next)=>{
             });
         } else {
             res.send(data);
-        }
+        };
     }); 
 };
